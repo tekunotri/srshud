@@ -62,7 +62,7 @@
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			pl"0"
+				"xpos"			"0"
 				"ypos"			"3"
 				"zpos"			"2"
 				"wide"			"24"

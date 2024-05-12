@@ -797,7 +797,21 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
+	"CurrencyStatusPanel"
+	{
+		"ControlName"			"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"0"
+		"ypos"				"r100"
+		"wide"				"100"
+		"tall"				"100"
+		"xpos_minmode"			"65"
+		"ypos_minmode"			"r88"
+		"visible" 			"0"
+		"enabled" 			"1"
 
+		"PaintBackgroundType"		"2"
+	}
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
