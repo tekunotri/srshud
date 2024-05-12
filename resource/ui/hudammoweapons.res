@@ -1,0 +1,108 @@
+"Resource/UI/HudAmmoWeapons.res"
+{
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudWeaponAmmoBG"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"	
+	}
+	"HudWeaponLowAmmoImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudWeaponLowAmmoImage"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"		
+	}
+	"AmmoInClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInClip"
+		"font"			"arialblkol64"
+		"fgcolor"		"255 255 255 255"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"80"
+		"tall"			"100"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%Ammo%"
+		
+	}		
+	"AmmoInClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInClipShadow"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}						
+	"AmmoInReserve"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserve"
+		"font"			"verdanaol24"
+		"fgcolor"		"255 255 255 255"
+		"xpos"			"80"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"80"
+		"tall"			"100"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"		
+		"labelText"		"%AmmoInReserve%"
+	}		
+	"AmmoInReserveShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserveShadow"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}									
+	"AmmoNoClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClip"
+		"font"			"arialblkol64"
+		"fgcolor"		"255 255 255 255"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"160"
+		"tall"			"100"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"		
+		"labelText"		"%Ammo%"
+		
+	}	
+	"AmmoNoClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClipShadow"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}									
+}
