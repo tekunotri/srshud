@@ -9,4 +9,4 @@
 **[CONTRIBUTING](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/contributing/github_contributing.md)**
 
 ![Main Menu](https://i.imgur.com/ia0Jp2r.png)
-![Gameplay]()
+![Gameplay](https://i.imgur.com/nI0Q6I2.jpeg)
