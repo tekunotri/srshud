@@ -1,10 +1,10 @@
-"Resource/UI/HudTournament.res" // NOTE: READYMODE 1 IS FUCKED, IDK HOW TO FIX IT.
+"Resource/UI/HudTournament.res" // thx hypnotize for fixing readymode
 {
 	HudTournament
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"			"EditablePanel"
 		"fieldName"				"HudTournament"
-		"xpos"					""
+		"xpos"					"cs-0.5"
 		"ypos"					"30"
 		"wide"					"f0"
 		"tall"					"f0"
@@ -15,9 +15,9 @@
 		"team1_player_delta_y"			"0"
 		"team2_player_base_offset_x" 	"25"
 		"team2_player_base_y"			"0"
-		"team2_player_delta_x"			"47"
+		"team2_player_delta_x"			"41"
 		"team2_player_delta_y"			"0"
-		"teams_player_delta_x_comp"		"47"
+		"teams_player_delta_x_comp"		"41"
 
 		if_mvm
 		{
@@ -30,6 +30,191 @@
 		if_readymode
 		{
 			"team1_player_base_y"		"60"
+		}
+
+		"playerpanels_kv"
+		{
+			"visible"		"0"
+			"wide"			"40"
+			"tall"			"22"
+			"zpos"			"1"
+
+			"color_ready"	"0 255 0 220"
+			"color_notready"	"0 0 0 220"
+
+			"playername"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"playername"
+				"xpos"				"0"
+				"ypos"				"rs1"
+				"zpos"				"5"
+				"wide"				"f0"
+				"tall"				"7"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"proportionaltoparent"	"1"
+				"use_proportional_insets"	"1"
+				"labelText"			"%playername%"
+				"textAlignment"		"west"
+				"textinsetx"		"2"
+				"xpos"				"4"
+				"ypos"				"25"
+				"wide"				"48"
+				"textAlignment"		"center"
+				"font"				"DefaultVerySmall"
+				"paintBackground"	"1"
+				"paintBackgroundtype"	"0"
+				"bgcolor_override"	"0 0 0 100"
+				"fgcolor"			"255 255 255 255"
+			}
+
+			"classimage"
+			{
+				"ControlName"		"CTFClassImage"
+				"fieldName"			"classimage"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"5"
+				"wide"				"15"
+				"tall"				"15"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				"image"				"../vgui/hud_connecting"
+				"scaleImage"		"1"
+			}
+
+			"classimagebg"
+			{
+				"ControlName"		"Panel"
+				"fieldName"			"classimagebg"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"2"
+				"wide"				"15"
+				"tall"				"15"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				"bgcolor_override"	"Black"
+				"PaintBackgroundType"	"0"
+			}
+
+			"HealthIcon"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"HealthIcon"
+				"xpos"				"18"
+				"ypos"				"-1"
+				"zpos"				"3"
+				"wide"				"32"
+				"tall"				"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"HealthBonusPosAdj"	"10"
+				"HealthDeathWarning"		"0.49"
+				"TFFont"					"HudFontSmallest"
+				"HealthDeathWarningColor"	"HUDDeathWarning"
+				"TextColor"					"HudOffWhite"
+			}
+
+			"ReadyBG"
+			{
+				"ControlName"		"ScalableImagePanel"
+				"fieldName"		"ReadyBG"
+				"xpos"			"rs1-2"
+				"ypos"			"2"
+				"zpos"			"-1"
+				"wide"			"12"
+				"tall"			"12"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"proportionaltoparent"	"1"
+				"image"			"../HUD/color_panel_brown"
+
+				"src_corner_height"	"23"				// pixels inside the image
+				"src_corner_width"	"23"
+
+				"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"0"
+
+				"alpha"		"255"
+			}
+
+			"ReadyImage"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"ReadyImage"
+				"xpos"			"28"
+				"ypos"			"3"
+				"zpos"			"5"
+				"wide"			"9"
+				"tall"			"10"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"proportionaltoparent"	"1"
+				"image"			"hud/checkmark"
+				"scaleImage"		"1"
+			}
+
+			"respawntime"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntime"
+				"font"			"DefaultSmall"
+				"xpos"			"30"
+				"ypos"			"18"
+				"zpos"			"5"
+				"wide"			"0"
+				"tall"			"0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"west"
+				//"fgcolor"		"235 226 202 255"
+			}
+
+			"chargeamount"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamount"
+				"font"			"DefaultSmall"
+				"xpos"			"25"
+				"ypos"			"17"
+				"zpos"			"6"
+				"wide"			"0"
+				"tall"			"0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"north"
+				"fgcolor"		"0 255 0 255"
+			}
+
+			"specindex"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"specindex"
+				"font"			"DefaultVerySmall"
+				"xpos"			"9999"
+				"ypos"			"2"
+				"zpos"			"5"
+				"wide"			"0"
+				"tall"			"0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%specindex%"
+				"textAlignment"	"north-west"
+			}
 		}
 	}
 
