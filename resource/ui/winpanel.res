@@ -1,15 +1,6 @@
 "Resource/UI/winpanel.res"
 {
-	WinPanel
-	{
-		"fieldName"				"WinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"r40"
-		"wide"					"f0"
-		"tall"					"40"
-	}
+
 "BlueScoreBG"
 {
 	"ControlName"	"EditablePanel"

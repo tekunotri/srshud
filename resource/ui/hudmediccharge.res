@@ -1,16 +1,6 @@
 "Resource/UI/HudMedicCharge.res"
 {
-	HudMedicCharge
-	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-82"	[$WIN32]
-		"ypos"			"r120"	[$WIN32]
-		"wide"			"320"
-		"tall"			"112"
-	}
-	
+
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -20,9 +10,9 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"0"				
+		"enabled"		"0"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -65,9 +55,9 @@
 		"brighttext"	"0"
 		"font"			"arialblkol64"
 	}
-	
+
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
@@ -75,7 +65,7 @@
 		"ypos"			"21"
 		"zpos"			"2"
 		"wide"			"161"
-		"tall"			"11"				
+		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -85,7 +75,7 @@
 		"brighttext"	"0"
 		"fgcolor_override"		"255 255 255 255"
 	}
-	
+
 	"MeterBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -113,10 +103,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"			"255"
-	}	
+	}
 
 	"ChargeMeter1"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
@@ -124,7 +114,7 @@
 		"ypos"			"21"
 		"zpos"			"2"
 		"wide"			"39"
-		"tall"			"11"				
+		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -135,7 +125,7 @@
 	}
 
 	"ChargeMeter2"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
@@ -143,7 +133,7 @@
 		"ypos"			"21"
 		"zpos"			"2"
 		"wide"			"39"
-		"tall"			"11"			
+		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -154,7 +144,7 @@
 	}
 
 	"ChargeMeter3"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
@@ -162,7 +152,7 @@
 		"ypos"			"21"
 		"zpos"			"2"
 		"wide"			"39"
-		"tall"			"11"		
+		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -173,7 +163,7 @@
 	}
 
 	"ChargeMeter4"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
@@ -181,7 +171,7 @@
 		"ypos"			"21"
 		"zpos"			"2"
 		"wide"			"39"
-		"tall"			"11"			
+		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -190,7 +180,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"HealthClusterIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -200,9 +190,9 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"0"	
-	}	
-	
+		"enabled"		"0"
+	}
+
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -214,7 +204,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 }

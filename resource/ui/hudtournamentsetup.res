@@ -1,16 +1,6 @@
 "Resource/UI/HudTournamentSetup.res"
 {
-	HudTournamentSetup
-	{
-		"fieldName"				"HudTournamentSetup"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-250"
-		"ypos"					"-20"
-		"wide"					"100"
-		"tall"					"40"
-	}
-	
+
 	"HudTournamentSetupBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -24,7 +14,7 @@
 	}
 
 	"TournamentSetupLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
 		"xpos"			"-9999"
@@ -36,7 +26,7 @@
 	}
 
 	"TournamentTeamNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
 		"xpos"			"-9999"
@@ -119,15 +109,15 @@
 		"default"		"1"
 		"font"			"verdanaol12"
 		"fgcolor"		"255 255 255 255"
-		
+
 		"defaultBgColor_override"	"50 50 50 255"
 		"defaultFgColor_override" "255 255 255 255"
 		"border_default"		"NoBorder"
-		
+
 		"armedBgColor_override"	"255 0 100 255"
 		"armedFgColor_override" 	"255 255 255 255"
 		"border_armed"		"NoBorder"
-      
+
 		"depressedBgColor_override"	"255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
 	}
@@ -149,19 +139,19 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command"		"teamready" 
+		"command"		"teamready"
 		"default"		"1"
 		"font"			"verdanaol12"
 		"fgcolor"		"255 255 255 255"
-		
+
 		"defaultBgColor_override"	"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
 		"border_default"		"NoBorder"
-		
+
 		"armedBgColor_override"	"0 100 255 255"
 		"armedFgColor_override" 	"255 255 255 255"
 		"border_armed"		"NoBorder"
-      
+
 		"depressedBgColor_override"	"255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
 	}

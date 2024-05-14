@@ -1,21 +1,9 @@
 "Resource/UI/HudDemomanCharge.res"
-{	
-	HudDemomanCharge
-	{
-		"fieldName"		"HudDemomanCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-82"	[$WIN32]
-		"ypos"			"r100"	[$WIN32]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"162"
-		"tall"			"12"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}	
-	
+{
+
+
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
@@ -23,7 +11,7 @@
 		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"161"
-		"tall"			"11"				
+		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -73,5 +61,5 @@
 		"fillcolor"		"150 150 150 150"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
 }

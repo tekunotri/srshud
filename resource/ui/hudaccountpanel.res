@@ -1,25 +1,7 @@
 "Resource/UI/HudAccountPanel.res"
 {
-	CHudAccountPanel
-	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-80"	[$WIN32]
-		"ypos"					"r110"	[$WIN32]
-		"wide"					"160"
-		"tall"  				"100"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-		
-		"delta_item_x"			"50"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"50"
-		"PositiveColor"			"0 255 100 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		".5"
-		"delta_item_font"		"verdanaol24"
-	}
-	
+
+
 	"AccountBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -29,10 +11,10 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"0"		
+		"enabled"		"0"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
@@ -47,11 +29,11 @@
 		"tall_lodef"	"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_metal"
 		"iconColor"		"ProgressOffWhite"
 	}
-	
+
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"

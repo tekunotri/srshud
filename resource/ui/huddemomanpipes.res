@@ -1,16 +1,7 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	HudDemomanPipes
-	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-82"	[$WIN32]
-		"ypos"			"r85"	[$WIN32]
-		"wide"			"162"
-		"tall"			"100"
-	}	
-	
+
+
 	"background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -20,9 +11,9 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"0"			
+		"enabled"		"0"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -46,7 +37,7 @@
 	}
 
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
@@ -54,7 +45,7 @@
 		"ypos"					"1"
 		"zpos"					"2"
 		"wide"					"160"
-		"tall"					"11"				
+		"tall"					"11"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -103,8 +94,8 @@
 //		"fillcolor"		"255 0 0 255"
 //		"visible"		"1"
 //		"enabled"		"1"
-//	}	
-		
+//	}
+
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -115,7 +106,7 @@
 		"wide"			"160"
 		"tall"			"30"
 		"visible"		"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -125,9 +116,9 @@
 			"wide"			"0"
 			"tall"			"0"
 			"visible"		"0"
-			"enabled"		"0"	
-		}	
-		
+			"enabled"		"0"
+		}
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -158,11 +149,11 @@
 			"wide"			"0"
 			"tall"			"0"
 			"visible"		"0"
-			"enabled"		"0"	
+			"enabled"		"0"
 
-		}		
+		}
 	}
-	
+
 	"NoPipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -173,7 +164,7 @@
 		"wide"			"160"
 		"tall"			"30"
 		"visible"		"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -183,7 +174,7 @@
 			"wide"			"0"
 			"tall"			"0"
 			"visible"		"0"
-			"enabled"		"0"	
+			"enabled"		"0"
 
 		}
 
@@ -217,8 +208,8 @@
 			"wide"			"0"
 			"tall"			"0"
 			"visible"		"0"
-			"enabled"		"0"	
+			"enabled"		"0"
 
-		}			
-	}				
+		}
+	}
 }
